@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+/* common css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* header part starts */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 1322px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+.nav-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-right: 30px;
+}
+.banner{
+    width: 862px;
+    height: 225px;
+}
+.banner-content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.banner-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.btn-primary{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
